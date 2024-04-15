@@ -1,0 +1,25 @@
+.nav-link {
+    transition: all 0.2s;
+
+}
+
+.nav-link:hover{
+    text-decoration : underline;
+/* border-bottom: 2px solid rgb(177, 62, 116); */
+}
+
+.nav-link::after {
+    content: '';
+    opacity: 0;
+    transition: all 0.2s;
+    height: 2px;
+    width: 100%;
+    /* background-color: rgb(177, 62, 116); */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.nav-link:hover::after {
+    opacity: 1;
+}

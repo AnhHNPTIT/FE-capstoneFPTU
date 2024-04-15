@@ -1,0 +1,654 @@
+{
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+  }
+  .v759_4501 {
+    width: 100%;
+    height: 1387px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v759_4502 {
+    width: 100%;
+    height: 85px;
+    background: url("../images/v759_4502.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    overflow: hidden;
+    scroll-snap-align: 5px;
+  }
+  .v759_4503 {
+    width: 100%;
+    height: 85px;
+    background: url("../images/v759_4503.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 295px;
+    overflow: hidden;
+  }
+  .v759_4504 {
+    width: 100%;
+    height: 85px;
+    background: linear-gradient(rgba(0,0,0,1), rgba(167,101,59,1));
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15000000596046448);
+    overflow: hidden;
+  }
+  .v759_4505 {
+    width: 293px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 28px;
+    left: 42px;
+    font-family: Roboto;
+    font-weight: Medium;
+    font-size: 36px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v759_4506 {
+    width: 295px;
+    height: 85px;
+    background: url("../images/v759_4506.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v759_4507 {
+    width: 295px;
+    height: 85px;
+    background: rgba(207,207,207,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15000000596046448);
+    overflow: hidden;
+  }
+  .v759_4508 {
+    width: 295px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: Sacramento;
+    font-weight: Regular;
+    font-size: 48px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v759_4509 {
+    width: 164px;
+    height: 38px;
+    background: url("../images/v759_4509.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 224px;
+    left: 309px;
+    overflow: hidden;
+  }
+  .v759_4510 {
+    width: 164px;
+    height: 38px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 1px solid rgba(0,0,0,1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+  }
+  .v759_4511 {
+    width: 137px;
+    color: rgba(0,0,0,0.6000000238418579);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: IBM Plex Sans;
+    font-weight: Medium;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+  }
+  .name {
+    color: #fff;
+  }
+  .v759_4513 {
+    width: 16px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 235px;
+    left: 871px;
+    font-family: IBM Plex Sans;
+    font-weight: Medium;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v759_4514 {
+    width: 122px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 225px;
+    left: 166px;
+    font-family: IBM Plex Sans;
+    font-weight: Medium;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v759_4515 {
+    width: 139px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 225px;
+    left: 519px;
+    font-family: IBM Plex Sans;
+    font-weight: Medium;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v759_4516 {
+    width: 203px;
+    height: 39px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 276px;
+    left: 308px;
+    border: 1px solid rgba(0,0,0,1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+  }
+  .v759_4517 {
+    width: 281px;
+    height: 39px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 276px;
+    left: 818px;
+    border: 1px solid rgba(0,0,0,1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+  }
+  .v759_4558 {
+    width: 83px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 5px;
+    left: 2px;
+    font-family: IBM Plex Sans;
+    font-weight: Medium;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v759_4559 {
+    width: 60px;
+    height: 40px;
+    background: url("../images/v759_4559.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 15px;
+    left: 1106px;
+    overflow: hidden;
+  }
+  .v759_4560 {
+    width: 60px;
+    height: 40px;
+    background: linear-gradient(rgba(167,101,59,1), rgba(65,39,23,1));
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 1px solid rgba(255,255,255,1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+  }
+  .v759_4561 {
+    width: 56px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 4px;
+    left: 2px;
+    font-family: IBM Plex Sans;
+    font-weight: Medium;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v759_4562 {
+    width: 100%;
+    height: 70px;
+    background: url("../images/v759_4562.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 536px;
+    left: 97px;
+    overflow: hidden;
+  }
+  .v759_4563 {
+    width: 156px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: IBM Plex Sans;
+    font-weight: Medium;
+    font-size: 27px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v759_4564 {
+    width: 277px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 0px;
+    left: 240px;
+    font-family: IBM Plex Sans;
+    font-weight: Medium;
+    font-size: 27px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v759_4565 {
+    width: 240px;
+    height: 70px;
+    background: url("../images/v759_4565.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 524px;
+    overflow: hidden;
+  }
+  .v759_4566 {
+    width: 240px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: IBM Plex Sans;
+    font-weight: Medium;
+    font-size: 27px;
+    opacity: 1;
+    text-align: center;
+  }
+  .name {
+    color: #fff;
+  }
+  .v759_4568 {
+    width: 324px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 0px;
+    left: 767px;
+    font-family: IBM Plex Sans;
+    font-weight: Medium;
+    font-size: 27px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v759_4569 {
+    width: 88px;
+    height: 40px;
+    background: url("../images/v759_4569.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 15px;
+    left: 1178px;
+    overflow: hidden;
+  }
+  .v759_4570 {
+    width: 88px;
+    height: 40px;
+    background: linear-gradient(rgba(218,26,26,1), rgba(116,14,14,1));
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 1px solid rgba(255,255,255,1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+  }
+  .v759_4571 {
+    width: 83px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 5px;
+    left: 2px;
+    font-family: IBM Plex Sans;
+    font-weight: Medium;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v759_4572 {
+    width: 60px;
+    height: 40px;
+    background: url("../images/v759_4572.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 15px;
+    left: 1106px;
+    overflow: hidden;
+  }
+  .v759_4573 {
+    width: 60px;
+    height: 40px;
+    background: linear-gradient(rgba(167,101,59,1), rgba(65,39,23,1));
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 1px solid rgba(255,255,255,1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+  }
+  .v759_4574 {
+    width: 56px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 5px;
+    left: 2px;
+    font-family: IBM Plex Sans;
+    font-weight: Medium;
+    font-size: 20px;
+    opacity: 1;
+    
+  }
+  .v759_4575 {
+    width: 100%;
+    height: 70px;
+    background: url("../images/v759_4575.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 593px;
+    left: 97px;
+    overflow: hidden;
+  }
+  .v759_4576 {
+    width: 156px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: IBM Plex Sans;
+    font-weight: Medium;
+    font-size: 27px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v759_4577 {
+    width: 277px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 0px;
+    left: 240px;
+    font-family: IBM Plex Sans;
+    font-weight: Medium;
+    font-size: 27px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v759_4578 {
+    width: 240px;
+    height: 70px;
+    background: url("../images/v759_4578.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 524px;
+    overflow: hidden;
+  }
+  .v759_4579 {
+    width: 240px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: IBM Plex Sans;
+    font-weight: Medium;
+    font-size: 27px;
+    opacity: 1;
+    text-align: center;
+  }
+  .name {
+    color: #fff;
+  }
+  .v759_4581 {
+    width: 324px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 0px;
+    left: 770px;
+    font-family: IBM Plex Sans;
+    font-weight: Medium;
+    font-size: 27px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v759_4582 {
+    width: 88px;
+    height: 40px;
+    background: url("../images/v759_4582.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 16px;
+    left: 1178px;
+    overflow: hidden;
+  }
+  .v759_4583 {
+    width: 88px;
+    height: 40px;
+    background: linear-gradient(rgba(218,26,26,1), rgba(116,14,14,1));
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 1px solid rgba(255,255,255,1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+  }
+  .v759_4584 {
+    width: 83px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 5px;
+    left: 2px;
+    font-family: IBM Plex Sans;
+    font-weight: Medium;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v759_4585 {
+    width: 60px;
+    height: 40px;
+    background: url("../images/v759_4585.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 16px;
+    left: 1106px;
+    overflow: hidden;
+  }
+  .v759_4586 {
+    width: 60px;
+    height: 40px;
+    background: linear-gradient(rgba(167,101,59,1), rgba(65,39,23,1));
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 1px solid rgba(255,255,255,1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+  }
+  .v759_4587 {
+    width: 56px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 5px;
+    left: 2px;
+    font-family: IBM Plex Sans;
+    font-weight: Medium;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v759_4588 {
+    width: 100%;
+    height: 70px;
+    background: url("../images/v759_4588.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 650px;
+    left: 97px;
+    overflow: hidden;
+  }
+  .v759_4589 {
+    width: 156px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: IBM Plex Sans;
+    font-weight: Medium;
+    font-size: 27px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v759_4590 {
+    width: 240px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 0px;
+    left: 240px;
+    font-family: IBM Plex Sans;
+    font-weight: Medium;
+    font-size: 27px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v759_4591 {
+    width: 240px;
+    height: 70px;
+    background: url("../images/v759_4591.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 524px;
+    overflow: hidden;
+  }
+  .v759_4592 {
+    width: 240px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: IBM Plex Sans;
+    font-weight: Medium;
+    font-size: 27px;
+    opacity: 1;
+    text-align: center;
+  }
+  .name {
+    color: #fff;
+  }
+  .v759_4594 {
+    width: 324px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 0px;
+    left: 770px;
+    font-family: IBM Plex Sans;
+    font-weight: Medium;
+    font-size: 27px;
+    opacity: 1;
+    text-align: center;
+  }

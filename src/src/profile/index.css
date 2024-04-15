@@ -1,0 +1,13 @@
+.profile-edit {
+    width: 200px;
+    height: 60px;
+    background: linear-gradient(180deg, #a8653b 0%, #a8653b 0%, #422817 100%);
+    border-radius: 30px;
+    color: #fff;
+    font-size: 24px;
+}
+.profile-footer {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}

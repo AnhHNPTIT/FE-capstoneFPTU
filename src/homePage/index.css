@@ -1,0 +1,205 @@
+.manufactoring-process {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.design-and-build {
+    height: 80%;
+}
+
+.design {
+    display: flex;
+}
+
+.design .bg-text {
+    position: relative;
+    width: 850px;
+    margin: auto 0;
+    height: 280px;
+    background-color: #D9D9D9;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: -10px 20px 30px 5px;
+}
+
+.design .bg-text .text {
+    position: absolute;
+    background: linear-gradient(90deg, #A8653B 0%, #422817 100%);
+    width: 70%;
+    height: 54%;
+    color: #FFF;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    top: 20%;
+    left: 0;
+    display: grid;
+    align-content: center;
+    font-size: 80px;
+    text-align: center;
+    font-family: serif;
+}
+
+.design .bg-text .button-view-service {
+    rotate: 90deg;
+    background-color: #422817;
+    height: 25%;
+    width: 280px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    display: grid;
+    align-content: center;
+    position: absolute;
+    top: 105px;
+    right: -105px;
+    cursor: pointer;
+}
+
+.design .bg-text .button-view-service:hover {
+    opacity: 70%;
+}
+
+.design .service-image {
+    width: 40%;
+}
+
+.and {
+    text-align: center;
+    color: #1F0D02;
+    font-family: Jacques Francois Shadow;
+    font-weight: 400;
+    line-height: 120px;
+    word-wrap: break-word;
+    font-size: 80px;
+}
+
+.build {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.build .bg-text {
+    position: relative;
+    width: 850px;
+    margin: auto 0;
+    height: 280px;
+    background-color: #D9D9D9;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    box-shadow: -10px 20px 30px 5px;
+}
+
+.build .service-image {
+    width: 40%;
+}
+
+.build .bg-text .text {
+    position: absolute;
+    background: linear-gradient(90deg, #A8653B 0%, #422817 100%);
+    width: 70%;
+    height: 54%;
+    color: #FFF;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    top: 20%;
+    right: 0;
+    display: grid;
+    align-content: center;
+    font-size: 80px;
+    text-align: center;
+    font-family: serif;
+}
+
+.build .bg-text .button-view-service {
+    rotate: -90deg;
+    background-color: #422817;
+    height: 25%;
+    width: 280px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    display: grid;
+    align-content: center;
+    position: absolute;
+    top: 105px;
+    left: -105px;
+    cursor: pointer;
+}
+
+.build .bg-text .button-view-service:hover {
+    opacity: 70%;
+}
+
+.get-price {
+    display: grid;
+    height: 70px;
+    width: 350px;
+    border: 5px #5b3000 solid;
+    text-align: center;
+    align-content: center;
+    margin: 5% 0 0 8%;
+    color: #000000;
+    font-size: 28px;
+    font-family: Philosopher;
+    font-weight: 700;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+
+.get-price:hover {
+    background-color: #a8653b;
+    color: white;
+}
+
+.modal-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1001;
+    /* Đảm bảo modal hiển thị trên lớp overlay */
+}
+
+.modal {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    /* Căn giữa nội dung trong modal */
+}
+
+.modal-content {
+    width: 400px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.modal-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 1000;
+}

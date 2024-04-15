@@ -1,0 +1,276 @@
+/* service1 */
+.service1 {
+	background-color: #ffffff;
+}
+
+.service__container {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.service__container .header {
+	text-align: center;
+}
+
+.header .title {
+	font-size: 48px;
+	font-weight: "Gabriela";
+	margin-top: 60px;
+}
+
+.header .description {
+	font-size: 30px;
+	color: #000000;
+	margin-top: 30px;
+}
+
+.header hr {
+	width: 70%;
+	border-top: solid 2px #000000;
+	margin: 1% auto;
+}
+
+.body .title {
+	text-align: center;
+	margin: 2% auto;
+	width: 80%;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.body .content {
+	padding: 0 5% 5% 5%;
+}
+
+.content .left-content {
+	width: 40%;
+}
+
+.content .image {
+	width: 50%;
+}
+
+.left-content hr {
+	border-top: solid 2px #DB1A1A;
+	width: 12rem;
+}
+
+.content-01 {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	margin-top: 5%;
+}
+
+.left-content .content-name {
+	color: #000000;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.left-content .content-desc {
+	font-size: 28px;
+	margin-top: 30px;
+	text-align: justify;
+}
+
+.content-02 {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row-reverse;
+	align-items: stretch;
+	margin-top: 5%;
+}
+
+.content-02 .left-content .content-name {
+	text-align: right;
+}
+
+.content-02 .left-content hr {
+	margin-left: auto;
+}
+
+.content-03 {
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	font-size: 28px;
+	margin-top: 5%;
+}
+
+
+.other-service .title {
+	color: #000000;
+	text-align: start;
+	margin-left: 5%;
+	width: 80%;
+	font-size: 30px;
+}
+
+.other-service hr {
+	border-top: solid 2px #000000;
+	width: 12rem;
+	margin-left: 5%;
+}
+
+.list-services {
+	margin: 3%;
+	display: flex;
+	justify-content: space-evenly
+}
+
+.button {
+	width: fit-content;
+	font-size: 25px;
+	color: #FFFFFF;
+	margin-top: 2%;
+	background-color: #B91616;
+	padding: 8px 22px;
+	border-radius: 10px;
+}
+
+.button:hover {
+	background-color: #be3636;
+}
+
+.service-child {
+	width: 40%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.service-child .text {
+	font-size: 30px;
+}
+
+.service-child .info {
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+/* service2 */
+.service2 {
+	background-color: #FFFFFF;
+}
+
+.service2 .service2__content-head {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+.service2 .first-content {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 3%;
+}
+
+.first-content .text {
+	width: 60%;
+	font-size: 30px;
+	text-align: justify;
+}
+
+.content .content-title {
+	color: #000000;
+	font-size: 54px;
+	font-weight: bold;
+	margin-top: 3%;
+}
+
+.content hr {
+	border-top: solid 2px #000000;
+	width: 40%;
+}
+
+.background-text-content {
+	width: 40%;
+	height: 500px;
+	position: relative;
+	margin: auto 0;
+}
+
+.background-text-content .background-white {
+	width: 90%;
+	height: 100%;
+	left: 0px;
+	top: -5%;
+	position: absolute;
+	background: white;
+	border-top-right-radius: 20px;
+}
+
+.background-text-content .background-middle {
+	width: 105%;
+	height: 75%;
+	left: 0px;
+	top: 10%;
+	position: absolute;
+	background: rgb(168, 101, 59);
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.background-text-content .background-brown {
+	width: 100%;
+	height: 500px;
+	left: 0px;
+	top: 0%;
+	position: absolute;
+	background: rgb(82, 43, 0);
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.background-text-content .text {
+	position: absolute;
+	left: 10%;
+	top: 10%;
+	width: 80%;
+	color: #FFF;
+	text-align: justify;
+}
+
+.content-detail {
+	display: flex;
+	margin: 4% 0 8% 0;
+	justify-content: center;
+}
+
+/* service3 */
+.service-intro .content {
+	display: flex;
+	margin-top: 3%;
+	font-size: 36px;
+	text-align: justify;
+	padding: 0 10%;
+}
+
+.service-video .video {
+	width: 80%;
+	margin: auto;
+}
+
+.service-benefit .text {
+	font-size: 36px;
+	width: 80%;
+	margin: auto;
+	text-align: justify;
+}
+
+.service-benefit .images {
+	display: flex;
+	justify-content: space-between;
+	margin: 5% auto;
+	width: 80%;
+}
+
+.images .img {
+	width: 48%;
+}

@@ -1,0 +1,111 @@
+.project-service-screen {
+   background-color: #FFFFFF;
+}
+
+img {
+   display: inline-block;
+}
+
+.project-type-scroll-bar {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 300px;
+   margin-top: 30px;
+}
+
+.carousel {
+   display: grid;
+   grid-auto-flow: column;
+   grid-auto-columns: calc(100% / 4);
+   justify-items: center;
+   justify-content: space-around;
+   width: 85%;
+   overflow: hidden;
+}
+
+.carousel .circle {
+   position: relative;
+   list-style: none;
+   width: 300px;
+   height: 300px;
+   border: #422817 1px;
+   cursor: pointer;
+}
+
+.circle .img img {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 50%;
+}
+
+.circle .bg-text {
+   position: absolute;
+   width: 100%;
+   height: 50%;
+   top: 50%;
+   border-radius: 0 0 150px 150px;
+   background-color: #422817;
+   opacity: 60%;
+   color: white;
+   text-align: center;
+   padding-top: 10%;
+}
+
+.project-service-screen .title {
+   text-align: center;
+}
+
+.title .screen-name {
+   font-size: 48px;
+   font-weight: "Gabriela";
+   margin-top: 60px;
+}
+
+.title .slogan {
+   font-size: 22px;
+   margin: 20px;
+}
+
+.content-container {
+   display: flex;
+   flex-direction: column;
+}
+
+.service-content {
+   width: 90%;
+   margin: 3% auto;
+   align-items: center;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.service-content .image {
+   width: 48%;
+}
+
+.service-content .content {
+   width: 48%;
+   padding: 5%;
+}
+
+.service-content .content .text {
+   font-size: 30px;
+}
+
+.service-content .content .button {
+   font-size: 20px;
+   color: #FFFFFF;
+   margin-top: 2%;
+   background-color: #B91616;
+   padding: 8px 22px;
+   border-radius: 10px;
+}
+
+.service-content .content .button:hover {
+   background-color: #be3636;
+
+}

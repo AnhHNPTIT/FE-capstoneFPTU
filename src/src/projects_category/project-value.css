@@ -1,0 +1,237 @@
+.feedback-title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-image: linear-gradient(to left, #e89f71, #000000);
+  height: 100px;
+  color: white;
+  font-size: 60px;
+  font-family: Gabriela;
+  font-weight: 400;
+  line-height: 54px;
+  letter-spacing: 20px;
+}
+
+.feedback-container {
+  display: flex;
+  width: auto;
+  height: auto;
+  margin: 5% 8%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feedback-content {
+  width: 80% !important;
+  color: black;
+  font-size: 24px;
+  font-family: Pacifico;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 3.6px;
+  word-wrap: break-word;
+  padding-left: 70px;
+}
+
+.project-value-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-value-container .title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-image: linear-gradient(to left, #e89f71, #000000);
+  height: 100px;
+  color: white;
+  font-size: 60px;
+  font-family: Gabriela;
+  font-weight: 400;
+  line-height: 54px;
+  letter-spacing: 5px;
+}
+
+.project-value-container .first-values {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  margin-top: 2%;
+}
+
+.first-values .project-name {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 40px;
+  font-family: Gabriela;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+.first-values .catalog {
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  right: 5%;
+  top: 20px;
+  background: linear-gradient(180deg, #a8653b 0%, #a8653b 0%, #422817 100%);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 26px;
+  font-family: Gabriela;
+}
+
+.first-values .delete {
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  right: 5%;
+  top: 100px;
+  background: linear-gradient(180deg, #a8653b 0%, #a8653b 0%, #422817 100%);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 26px;
+  font-family: Gabriela;
+}
+
+.ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+  color: white;
+  background: #a8653b;
+  border: 1px #a8653b solid;
+}
+
+/* CSS second values */
+.second-values {
+  display: flex;
+  width: 100%;
+}
+
+.second-values .project-values {
+  display: flex;
+  width: 100%;
+  margin: 3%;
+}
+
+.project-values .categories-and-date {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.categories-and-date .category {
+  width: 100%;
+}
+
+/* CSS button category */
+.ant-btn-primary {
+  background: white;
+  color: black;
+  text-align: start;
+  border: 1px #a8653b solid;
+}
+
+.ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+  color: white;
+  background: #a8653b;
+}
+
+.ant-btn-primary:not(:disabled):not(.ant-btn-disabled):active {
+  color: white;
+  background: linear-gradient(90deg, #a8653b 0%, #422817 100%);
+}
+
+.ant-btn-primary:not(:disabled):not(.ant-btn-disabled):focus {
+  color: white;
+  background: linear-gradient(90deg, #a8653b 0%, #422817 100%);
+}
+
+.project-values .middle-line {
+  width: 5%;
+}
+
+.middle-line hr {
+  width: 700px;
+  height: 0px;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+  border-top: 2px #942121 dotted;
+}
+
+/* CSS date value of project  */
+.categories-and-date .date {
+  display: flex;
+  font-size: 20px;
+  flex-direction: column;
+  width: 80%;
+}
+
+.date .design-date {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date .construction-date {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* CSS images of category */
+.project-values .category-images {
+  display: grid;
+  width: 75%;
+  height: 700px;
+  align-items: start;
+  overflow: auto;
+  padding: 2%;
+}
+
+/* CSS for scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* CSS third values */
+.bottom-line hr {
+  margin: auto;
+  width: 80%;
+  transform-origin: 0 0;
+  border-top: 2px #942121 dotted;
+}
+
+.designer-info {
+  margin: 2% 0;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+}
